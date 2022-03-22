@@ -9,7 +9,7 @@
   
   inputs.src-lazy-master.flake = false;
   inputs.src-lazy-master.owner = "petermora";
-  inputs.src-lazy-master.ref   = "refs/heads/master";
+  inputs.src-lazy-master.ref   = "master";
   inputs.src-lazy-master.repo  = "nimLazy";
   inputs.src-lazy-master.type  = "github";
   
