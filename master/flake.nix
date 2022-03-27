@@ -11,6 +11,7 @@
   inputs.src-lazy-master.ref   = "refs/heads/master";
   inputs.src-lazy-master.owner = "petermora";
   inputs.src-lazy-master.repo  = "nimLazy";
+  inputs.src-lazy-master.dir   = "";
   inputs.src-lazy-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
